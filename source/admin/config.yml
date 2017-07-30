@@ -3,7 +3,8 @@ backend:
   repo: sho-yamane/netlify-cms # Path to your GitHub repository
   branch: master # Branch to update (master by default)
 
-media_folder: "img/uploads" # Folder where user uploaded files should go
+media_folder: "source/img/uploads" # Folder where user uploaded files should go
+public_folder: "/img/uploads"
 
 collections: # A list of collections the CMS should be able to edit
   - name: "blog" # Used in routes, ie.: /admin/collections/:slug/edit
