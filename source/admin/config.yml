@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: sho-yamane/middleman-cms-for-netlify # Path to your GitHub repository
+  repo: sho-yamane/netlify-cms # Path to your GitHub repository
   branch: master # Branch to update (master by default)
 
 media_folder: "img/uploads" # Folder where user uploaded files should go
